@@ -24,7 +24,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className="font-semibold cursor-pointer">
+          className="cursor-pointer hover: text-primary transition duration-300 ease-in-out">
             <img src="/img/logo.png" className="h-20" />
         </Link>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="text-xl font-semibold hover:text-hoverColor transition"
+              className="text-xl font-semibold cursor-pointer hover:text-hoverColor transition"
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
             </Link>

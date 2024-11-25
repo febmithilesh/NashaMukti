@@ -24,7 +24,6 @@ const services = [
     description:
       "Comprehensive rehabilitation to ensure long-term recovery and mental well-being.",
     buttonText: "Call Now!",
-    phoneNumber: "+1122334455",
     image:
       "https://media.istockphoto.com/id/2155530354/photo/circle-discussion-during-counseling-meeting.jpg?s=612x612&w=0&k=20&c=Itby5ESFVCWS02ZKG1OxT9u6V12Gn_nmpDTsbMaddyQ=",
     phoneNumber: "+1122334455",

@@ -5,7 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -31,13 +31,8 @@ const App = () => {
 
    <Contact/>
    </div>
-   <div id="footer">
-     <Footer/>
-   </div>
       </main>
-
-
-
+      <Footer/>
     </>
   );
 };

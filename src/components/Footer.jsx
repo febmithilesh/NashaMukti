@@ -7,7 +7,7 @@ export function Footer() {
   // Monitor scroll position
   useEffect(() => {
     const handleScroll = () => {
-      setShowScrollButtons(window.scrollY > 200); // Show buttons after 200px scroll
+      setShowScrollButtons(window.scrollY > 200); 
     };
 
     window.addEventListener("scroll", handleScroll);
