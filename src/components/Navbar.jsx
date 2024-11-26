@@ -30,19 +30,20 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
-          {["home", "about", "services", "blog", "contact"].map((item) => (
-            <Link
-              key={item}
-              to={item}
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="text-xl font-semibold cursor-pointer hover:text-hoverColor transition"
-            >
-              {item.charAt(0).toUpperCase() + item.slice(1)}
-            </Link>
-          ))}
-        </nav>
+  {["home", "about", "services", "blog", "contact"].map((item) => (
+    <Link
+      key={item}
+      to={item} // Ensure this matches the ID of the target section
+      spy={true}
+      smooth={true}
+      duration={500}
+      className="text-xl font-semibold cursor-pointer hover:text-hoverColor transition"
+    >
+      {item.charAt(0).toUpperCase() + item.slice(1)}
+    </Link>
+  ))}
+</nav>
+
 
         {/* Desktop Call Button */}
         <div className="hidden lg:block">
@@ -103,6 +104,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
 
 

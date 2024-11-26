@@ -2,27 +2,28 @@ import React from "react";
 import Button from "../layouts/Button";
 
 const Blogs = () => {
-
   const videoData = [
-    { id: "wlvUuD8ZKoU", title: "" },
-    { id: "bQ9uDMVoVC4", title: "" },
-    { id: "5I3Zi37iTVo", title: "" },
-    { id: "b9up2RIuw58", title: "" },
-    { id: "3twYqKVa6pQ", title: "" },
-    { id: "0Xfe33JCX9s", title: "" },
-
+    { id: "l_jK3D70KUc", title: "Success Stories of Recovery" },
+    { id: "SOSTSH5N0jw", title: "Success Stories of Recovery" },
+    { id: "XqI4fZqGJ3o", title: "Success Stories of Recovery" },
+    { id: "q4nYnovaWSY", title: "Success Stories of Recovery" },
+    { id: "IIeuF8ckNGE", title: "Life at a Rehabilitation Center" },
+    { id: "guUT-WdP7qg", title: "Success Stories of Recovery" },
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-center px-5 md:px-10 lg:px-32 pt-24">
+    <div
+      id="blog" // This ID should match the "to" prop in your Link
+      className="min-h-screen flex flex-col justify-center px-5 md:px-10 lg:px-32 pt-24"
+    >
       {/* Header Section */}
       <div className="flex flex-col items-center lg:flex-row justify-between text-center lg:text-start gap-4 lg:gap-0">
         <div>
           <h1 className="text-3xl lg:text-4xl font-semibold">
-          Dhara Nasha Mukti Kendra 
+            Dhara Nasha Mukti Kendra
           </h1>
           <p className="mt-2 text-sm md:text-base lg:text-lg">
-          Dhara Nasha Mukti Kendra 
+            Dhara Nasha Mukti Kendra
           </p>
         </div>
         <div>
@@ -46,7 +47,9 @@ const Blogs = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
-              <h3 className="text-center mt-2 text-lg font-semibold">{video.title}</h3>
+              <h3 className="text-center mt-2 text-lg font-semibold">
+                {video.title}
+              </h3>
             </div>
           ))}
         </div>

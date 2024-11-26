@@ -14,8 +14,8 @@ const Home = () => {
   const images = [
     'https://miro.medium.com/v2/resize:fit:1358/1*mnT2LYAk9XgLr9wUuiOYjw.jpeg',
 
-    'https://alind11.bambootruck.com/wp-content/uploads/elementor/thumbs/freepicdownloader.com-teenager-suffering-from-hangover-normal-qxdhsezu3u00zwcacg45f7lnviebr1iwkjm2rhm8c8.jpg',
-    'https://img.freepik.com/free-photo/unpleased-adult-ill-caucasian-man-with-scarf-around-neck-wearing-winter-hat-holding-looking-syringe-medicine-blister-pack-isolated-pink-wall-with-copy-space_141793-107966.jpg?uid=R166662328&ga=GA1.1.220756668.1728029705&semt=ais_hybrid',
+    'https://t3.ftcdn.net/jpg/07/13/55/60/240_F_713556015_wtWXbl292OzP9Z4vIqB2tCXeTr8tekj5.jpg',
+    'https://t4.ftcdn.net/jpg/08/31/06/35/240_F_831063526_I60gsUGjMFG6zRGwuIc0eEGXtFhCaXZS.jpg',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

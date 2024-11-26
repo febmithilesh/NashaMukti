@@ -100,17 +100,17 @@ export function Footer() {
               <ul className="space-y-2">
                 <li className="flex items-center text-muted-foreground">
                   <Phone size={18} className="mr-2 text-primary" />
-                  <span>+91 1234567890</span>
+                  <span>+91 9199271478</span>
                 </li>
                 <li className="flex items-center text-muted-foreground">
                   <Mail size={18} className="mr-2 text-primary" />
-                  <a href="mailto:info@dharanashamukti.com" className="hover:text-primary">
-                    info@dharanashamukti.com
+                  <a href="mailto:mithileshfeb2001@gmail.com" className="hover:text-primary">
+                    mithileshfeb2001@gmail.com
                   </a>
                 </li>
                 <li className="flex items-center text-muted-foreground">
                   <MapPin size={18} className="mr-2 text-primary" />
-                  <span>123 Rehab Street, City, State, India</span>
+                  <span>Rehab Street: Panch Siv Temple, City:Patna, State:Bihar, India</span>
                 </li>
               </ul>
             </div>
@@ -125,7 +125,7 @@ export function Footer() {
 
       {/* WhatsApp Call Button */}
       <a
-        href="https://wa.me/911234567890"
+        href="https://wa.me/9199271478"
         className="fixed left-4 bottom-4 bg-green-500 text-white p-4 m-5 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300"
         aria-label="Call on WhatsApp"
         target="_blank"
